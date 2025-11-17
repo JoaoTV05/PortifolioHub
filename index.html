@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - João Paulo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            padding: 40px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+        /* --- ESTILO ADICIONADO/MODIFICADO --- */
+        .project-card { 
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        
+        .project-card h3 a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        
+        .project-card p.project-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .perfil-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+            border: 3px solid #2c3e50;
+        }
+
+        footer {
+            text-align: center;
+            background: #222;
+            color: #fff;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>João Paulo</h1>
+        <p>Estudante de Ciência da Computação</p>
+    </header>
+
+    <section id="perfil">
+        <h2>Perfil Pessoal</h2>
+        <p>
+            Bom dia! Meu nome é João Paulo e estou no primeiro semestre de Ciência da Computação.
+            Tenho uma paixão por jogos e planejo ser GameDev, porém ainda estou aberto para diversas 
+            outras opções para minha carreira pois gosto de programação no geral.
+        </p>
+    </section>
+
+    <section id="curriculo">
+        <h2>Currículo</h2>
+
+        <h3>Formação</h3>
+        <ul>
+            <li><strong>Bacharelado em Ciência da Computação</strong> – UniCeub (2025 - 2029)</li>
+            <li><strong>Ensino Médio</strong> – Colégio Militar de Brasília (2022 - 2024)</li>
+        </ul>
+
+        <h3>Experiência Profissional</h3>
+        <ul>
+            <li><em>Ainda sem experiência profissional.</em></li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos do GitHub</h2>
+
+        <div id="projects-container">
+            <p>Carregando repositórios...</p>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades e Competências</h2>
+
+        <h3>Habilidades Técnicas</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (básico)</li>
+            <li>Git e GitHub</li>
+            <li>C++ (básico)</li>
+        </ul>
+
+        <h3>🧠 Competências</h3>
+        <ul>
+            <li>Vontade de aprender</li>
+            <li>Curiosidade tecnológica</li>
+            <li>Dedicação</li>
+            <li>Trabalho em equipe</li>
+        </ul>
+    </section>
+
+    <footer>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
